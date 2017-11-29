@@ -38,7 +38,7 @@ namespace MessagingService.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] Message item)
         {
-            if (item == null)
+            if (item == null || item.id.Equals(MessageRepo.Find(item.id).id))
             {
                 return BadRequest();
             }

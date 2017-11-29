@@ -11,14 +11,14 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/message",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "MessagingService": {
       "commandName": "Project",
-      "launchUrl": "api/values",
+      "launchUrl": "api/message",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
